@@ -1,0 +1,43 @@
+.hro-container{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 3rem;
+
+}
+.leftside{
+	overflow: hidden;
+}
+
+.rightside{
+	display:flex;
+	flex-direction:column;
+	text-align: justify;
+	line-height: 2;
+	letter-spacing: 3px;
+	margin:auto;
+	
+	}
+
+.hro-heading{
+	color:3f3b3b;
+	white-space: pre-wrap;
+	transition-timing-function: ease;
+	transition-duration: 0.45s;
+	transition-delay: 0.1s;
+	margin-top: 50px;
+	padding-top: 50px;
+	font-weight: bold;
+
+}
+.hro-text{
+	color:3f3b3b;
+	
+	}
+
+.hro-img{
+	overflow: hidden;
+	-webkit-mask-image:-webkit-radial-gradient(white, black);
+	width: 600px;
+	height: 600px;
+}

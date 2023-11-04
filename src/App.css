@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  overflow-x: hidden;
+}
+.p-image-container{
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  justify-content: space-evenly;
+
+  
+  
+
+}
+.p-image-txt{
+    text-align: center;
+    white-space: pre-wrap;
+    transition-timing-function: ease;
+    transition-duration: 0.45s;
+    transition-delay: 0.258621s;
+
+}
+.p-image-h{
+    text-align: center;
+    white-space: pre-wrap;
+    transition-timing-function: ease;
+    transition-duration: 0.45s;
+    transition-delay: 0.248276s;
+}
+.cardo{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 300px 300px;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 300px;
+  text-align: center;
+}
+.cardo-header{
+  margin: 50px;
+  padding: 50px;
+
+}
+
+.sym-table{
+  width: 100%;
+  height: 400px;
+}
+td{
+  height: 400px !important;
+}
+
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 1300px;
+  height: 50vh;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}

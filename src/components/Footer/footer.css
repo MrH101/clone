@@ -1,0 +1,20 @@
+.footer-wrapper{
+	background:black;
+	padding-top: 6.6vmax;
+	padding-bottom: 6.6vmax;
+}
+.footer-container-one{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	color:white;
+	text-align:left;
+
+}
+.footer-container-two{
+	display: flex;
+	justify-content: flex-end;
+}
+.f-logo{
+	max-width: 200px;
+}
